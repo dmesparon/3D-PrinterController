@@ -1,5 +1,7 @@
-EESchema Schematic File Version 4
-EELAYER 26 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:3DPrinterController-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -39,137 +41,51 @@ F 3 "" H 5250 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 7500 5250 7350
+	5250 900  5250 7500
 Connection ~ 5250 7500
 Connection ~ 5250 1050
-Wire Wire Line
-	5250 1050 5250 900 
 Connection ~ 5250 1200
-Wire Wire Line
-	5250 1200 5250 1050
 Connection ~ 5250 1350
-Wire Wire Line
-	5250 1350 5250 1200
 Connection ~ 5250 1500
-Wire Wire Line
-	5250 1500 5250 1350
 Connection ~ 5250 1650
-Wire Wire Line
-	5250 1650 5250 1500
 Connection ~ 5250 1800
-Wire Wire Line
-	5250 1800 5250 1650
 Connection ~ 5250 1950
-Wire Wire Line
-	5250 1950 5250 1800
 Connection ~ 5250 2100
-Wire Wire Line
-	5250 2100 5250 1950
 Connection ~ 5250 2250
-Wire Wire Line
-	5250 2250 5250 2100
 Connection ~ 5250 2400
-Wire Wire Line
-	5250 2400 5250 2250
 Connection ~ 5250 2550
-Wire Wire Line
-	5250 2550 5250 2400
 Connection ~ 5250 2700
-Wire Wire Line
-	5250 2700 5250 2550
 Connection ~ 5250 2850
-Wire Wire Line
-	5250 2850 5250 2700
 Connection ~ 5250 3000
-Wire Wire Line
-	5250 3000 5250 2850
 Connection ~ 5250 3150
-Wire Wire Line
-	5250 3150 5250 3000
 Connection ~ 5250 3300
-Wire Wire Line
-	5250 3300 5250 3150
 Connection ~ 5250 3450
-Wire Wire Line
-	5250 3450 5250 3300
 Connection ~ 5250 3600
-Wire Wire Line
-	5250 3600 5250 3450
 Connection ~ 5250 3750
-Wire Wire Line
-	5250 3750 5250 3600
 Connection ~ 5250 3900
-Wire Wire Line
-	5250 3900 5250 3750
 Connection ~ 5250 4050
-Wire Wire Line
-	5250 4050 5250 3900
 Connection ~ 5250 4200
-Wire Wire Line
-	5250 4200 5250 4050
 Connection ~ 5250 4350
-Wire Wire Line
-	5250 4350 5250 4200
 Connection ~ 5250 4500
-Wire Wire Line
-	5250 4500 5250 4350
 Connection ~ 5250 4650
-Wire Wire Line
-	5250 4650 5250 4500
 Connection ~ 5250 4800
-Wire Wire Line
-	5250 4800 5250 4650
 Connection ~ 5250 4950
-Wire Wire Line
-	5250 4950 5250 4800
 Connection ~ 5250 5100
-Wire Wire Line
-	5250 5100 5250 4950
 Connection ~ 5250 5250
-Wire Wire Line
-	5250 5250 5250 5100
 Connection ~ 5250 5400
-Wire Wire Line
-	5250 5400 5250 5250
 Connection ~ 5250 5550
-Wire Wire Line
-	5250 5550 5250 5400
 Connection ~ 5250 5700
-Wire Wire Line
-	5250 5700 5250 5550
 Connection ~ 5250 5850
-Wire Wire Line
-	5250 5850 5250 5700
 Connection ~ 5250 6000
-Wire Wire Line
-	5250 6000 5250 5850
 Connection ~ 5250 6150
-Wire Wire Line
-	5250 6150 5250 6000
 Connection ~ 5250 6300
-Wire Wire Line
-	5250 6300 5250 6150
 Connection ~ 5250 6450
-Wire Wire Line
-	5250 6450 5250 6300
 Connection ~ 5250 6600
-Wire Wire Line
-	5250 6600 5250 6450
 Connection ~ 5250 6750
-Wire Wire Line
-	5250 6750 5250 6600
 Connection ~ 5250 6900
-Wire Wire Line
-	5250 6900 5250 6750
 Connection ~ 5250 7050
-Wire Wire Line
-	5250 7050 5250 6900
 Connection ~ 5250 7200
-Wire Wire Line
-	5250 7200 5250 7050
 Connection ~ 5250 7350
-Wire Wire Line
-	5250 7350 5250 7200
 $Comp
 L power:+1V8 #PWR?
 U 1 1 5B1FA7BD
@@ -182,14 +98,10 @@ F 3 "" H 3550 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 1650 3550 1800
+	3550 1650 3550 2100
 Connection ~ 3550 1650
 Connection ~ 3550 1800
-Wire Wire Line
-	3550 1800 3550 1950
 Connection ~ 3550 1950
-Wire Wire Line
-	3550 1950 3550 2100
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5B1FB451
@@ -202,14 +114,10 @@ F 3 "" H 3550 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 2400 3550 2550
+	3550 2400 3550 2850
 Connection ~ 3550 2400
 Connection ~ 3550 2550
-Wire Wire Line
-	3550 2550 3550 2700
 Connection ~ 3550 2700
-Wire Wire Line
-	3550 2700 3550 2850
 $Comp
 L power:GND #PWR?
 U 1 1 5B1FC40F
@@ -222,50 +130,22 @@ F 3 "" H 3550 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 7500 3550 7350
+	3550 5250 3550 7500
 Connection ~ 3550 7500
 Connection ~ 3550 5400
-Wire Wire Line
-	3550 5400 3550 5250
 Connection ~ 3550 5550
-Wire Wire Line
-	3550 5550 3550 5400
 Connection ~ 3550 5700
-Wire Wire Line
-	3550 5700 3550 5550
 Connection ~ 3550 5850
-Wire Wire Line
-	3550 5850 3550 5700
 Connection ~ 3550 6000
-Wire Wire Line
-	3550 6000 3550 5850
 Connection ~ 3550 6150
-Wire Wire Line
-	3550 6150 3550 6000
 Connection ~ 3550 6300
-Wire Wire Line
-	3550 6300 3550 6150
 Connection ~ 3550 6450
-Wire Wire Line
-	3550 6450 3550 6300
 Connection ~ 3550 6600
-Wire Wire Line
-	3550 6600 3550 6450
 Connection ~ 3550 6750
-Wire Wire Line
-	3550 6750 3550 6600
 Connection ~ 3550 6900
-Wire Wire Line
-	3550 6900 3550 6750
 Connection ~ 3550 7050
-Wire Wire Line
-	3550 7050 3550 6900
 Connection ~ 3550 7200
-Wire Wire Line
-	3550 7200 3550 7050
 Connection ~ 3550 7350
-Wire Wire Line
-	3550 7350 3550 7200
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5B1FD6F0
@@ -280,14 +160,10 @@ $EndComp
 Wire Wire Line
 	3550 4350 3150 4350
 Wire Wire Line
-	3550 4800 3550 4650
+	3550 4350 3550 4800
 Connection ~ 3550 4350
 Connection ~ 3550 4500
-Wire Wire Line
-	3550 4500 3550 4350
 Connection ~ 3550 4650
-Wire Wire Line
-	3550 4650 3550 4500
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5B20443F
@@ -314,14 +190,10 @@ F 3 "" H 3550 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 3150 3550 3300
+	3550 3150 3550 3600
 Connection ~ 3550 3150
-Wire Wire Line
-	3550 3300 3550 3450
 Connection ~ 3550 3300
 Connection ~ 3550 3450
-Wire Wire Line
-	3550 3450 3550 3600
 $Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5B20C71F

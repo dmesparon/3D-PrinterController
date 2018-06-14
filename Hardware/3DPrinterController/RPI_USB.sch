@@ -1,5 +1,7 @@
-EESchema Schematic File Version 4
-EELAYER 26 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:3DPrinterController-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -43,4 +45,23 @@ F 8 "Microchip" H 3700 3850 50  0001 L BNN "Field8"
 	1    3700 3850
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5B22304F
+P 5200 3150
+F 0 "#PWR?" H 5200 3000 50  0001 C CNN
+F 1 "power:+1V8" H 5200 3290 50  0000 C CNN
+F 2 "" H 5200 3150 50  0001 C CNN
+F 3 "" H 5200 3150 50  0001 C CNN
+	1    5200 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3150 4800 3150
+Wire Wire Line
+	4800 3150 4800 3450
+Connection ~ 4800 3250
+Connection ~ 4800 3350
+Connection ~ 4800 3150
+Connection ~ 4800 3450
 $EndSCHEMATC
