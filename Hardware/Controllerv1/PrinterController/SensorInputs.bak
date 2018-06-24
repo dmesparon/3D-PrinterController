@@ -94,6 +94,7 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
+LIBS:IRFR3711TRPBF
 LIBS:PrinterController-cache
 EELAYER 25 0
 EELAYER END

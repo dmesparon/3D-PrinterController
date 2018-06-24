@@ -1,4 +1,4 @@
-update=15/06/2018 9:22:56 AM
+update=17/06/2018 12:11:10 PM
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=../../Libraries
 [eeschema/libraries]
 LibName1=C:/Program Files/KiCad/share/kicad/library/74xgxx
 LibName2=C:/Program Files/KiCad/share/kicad/library/74xx
@@ -126,3 +126,4 @@ LibName92=C:/Program Files/KiCad/share/kicad/library/Xicor
 LibName93=C:/Program Files/KiCad/share/kicad/library/xilinx
 LibName94=C:/Program Files/KiCad/share/kicad/library/zetex
 LibName95=C:/Program Files/KiCad/share/kicad/library/Zilog
+LibName96=IRFR3711TRPBF
