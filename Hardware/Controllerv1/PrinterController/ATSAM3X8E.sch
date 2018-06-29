@@ -204,7 +204,7 @@ U 1 1 5B26AA62
 P 600 1650
 F 0 "C1" V 348 1650 50  0000 C CNN
 F 1 "C" V 439 1650 50  0000 C CNN
-F 2 ".pretty:SOT65P330X90-5N" H 638 1500 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 638 1500 50  0001 C CNN
 F 3 "~" H 600 1650 50  0001 C CNN
 	1    600  1650
 	0    1    1    0   
@@ -229,17 +229,6 @@ F 1 "32.768" V 995 2481 50  0000 L CNN
 F 2 "Crystals:Crystal_SMD_MicroCrystal_CC7V-T1A-2pin_3.2x1.5mm_HandSoldering" H 950 2350 50  0001 C CNN
 F 3 "~" H 950 2350 50  0001 C CNN
 	1    950  2350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Crystal Y1
-U 1 1 5B26AA8B
-P 950 2000
-F 0 "Y1" V 904 2131 50  0000 L CNN
-F 1 "12MHz" V 995 2131 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_HC49-SD_HandSoldering" H 950 2000 50  0001 C CNN
-F 3 "~" H 950 2000 50  0001 C CNN
-	1    950  2000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1130,14 +1119,12 @@ Wire Wire Line
 Wire Wire Line
 	950  1650 750  1650
 Wire Wire Line
-	950  1850 950  1650
-Wire Wire Line
 	750  2150 750  2050
 Wire Wire Line
 	800  2200 800  2250
 Connection ~ 500  2500
 Wire Wire Line
-	450  2250 450  1650
+	450  2250 450  1550
 Connection ~ 450  2050
 Connection ~ 500  2250
 Wire Wire Line
@@ -1149,13 +1136,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 2250 1700 2250
 Wire Wire Line
-	1200 2050 1700 2050
-Wire Wire Line
-	1200 2150 1200 2050
-Wire Wire Line
-	1200 1850 950  1850
-Wire Wire Line
-	1200 1950 1200 1850
+	1150 2050 1700 2050
 Wire Wire Line
 	1700 1950 1200 1950
 Wire Wire Line
@@ -1164,10 +1145,6 @@ Connection ~ 950  2500
 Wire Wire Line
 	800  2200 1200 2200
 Connection ~ 950  2200
-Wire Wire Line
-	750  2150 1200 2150
-Connection ~ 950  2150
-Connection ~ 950  1850
 Wire Wire Line
 	2800 1150 2800 1350
 Wire Wire Line
@@ -1436,4 +1413,38 @@ F 3 "" H 5100 7700 50  0001 C CNN
 	1    5100 7700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Crystal_GND24 Y1
+U 1 1 5B358941
+P 950 2000
+F 0 "Y1" H 1075 2200 50  0000 L CNN
+F 1 "Crystal_GND24" H 1075 2125 50  0000 L CNN
+F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering" H 950 2000 50  0001 C CNN
+F 3 "" H 950 2000 50  0001 C CNN
+	1    950  2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 2150 1150 2050
+Wire Wire Line
+	750  2150 1150 2150
+Connection ~ 950  2150
+Wire Wire Line
+	1200 1950 1200 1850
+Wire Wire Line
+	1200 1850 950  1850
+Wire Wire Line
+	950  1850 950  1650
+Wire Wire Line
+	1150 2000 1300 2000
+Wire Wire Line
+	1300 2000 1300 1550
+Wire Wire Line
+	1300 1550 450  1550
+Connection ~ 450  1650
+Wire Wire Line
+	750  2000 750  1850
+Wire Wire Line
+	750  1850 450  1850
+Connection ~ 450  1850
 $EndSCHEMATC
