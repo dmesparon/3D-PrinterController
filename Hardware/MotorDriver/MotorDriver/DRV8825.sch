@@ -1,0 +1,404 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Driver_Motor:TMC262 U?
+U 1 1 5B447A6B
+P 4400 2500
+F 0 "U?" H 4400 3978 50  0000 C CNN
+F 1 "TMC262" H 4400 3887 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 4400 1100 50  0001 C CNN
+F 3 "http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC262_datasheet.pdf" H 4450 1150 50  0001 C CNN
+	1    4400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 1 1 5B447CA6
+P 6450 3050
+F 0 "Q?" H 6655 3096 50  0000 L CNN
+F 1 "FDS9926A" H 6655 3005 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6650 2975 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 6450 3050 50  0001 L CNN
+	1    6450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 2 1 5B447D49
+P 6450 1500
+F 0 "Q?" H 6655 1454 50  0000 L CNN
+F 1 "FDS9926A" H 6655 1545 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6650 1425 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 6450 1500 50  0001 L CNN
+	2    6450 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 2 1 5B447F43
+P 7600 1500
+F 0 "Q?" H 7805 1454 50  0000 L CNN
+F 1 "FDS9926A" H 7805 1545 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7800 1425 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 7600 1500 50  0001 L CNN
+	2    7600 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 2 1 5B447F9D
+P 8600 1500
+F 0 "Q?" H 8805 1454 50  0000 L CNN
+F 1 "FDS9926A" H 8805 1545 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8800 1425 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 8600 1500 50  0001 L CNN
+	2    8600 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 2 1 5B448013
+P 9500 1500
+F 0 "Q?" H 9705 1454 50  0000 L CNN
+F 1 "FDS9926A" H 9705 1545 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9700 1425 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 9500 1500 50  0001 L CNN
+	2    9500 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 1 1 5B44803D
+P 7600 3050
+F 0 "Q?" H 7805 3096 50  0000 L CNN
+F 1 "FDS9926A" H 7805 3005 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7800 2975 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 7600 3050 50  0001 L CNN
+	1    7600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 1 1 5B448071
+P 8600 3050
+F 0 "Q?" H 8805 3096 50  0000 L CNN
+F 1 "FDS9926A" H 8805 3005 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8800 2975 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 8600 3050 50  0001 L CNN
+	1    8600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 1 1 5B4480A9
+P 9500 3050
+F 0 "Q?" H 9705 3096 50  0000 L CNN
+F 1 "FDS9926A" H 9705 3005 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9700 2975 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 9500 3050 50  0001 L CNN
+	1    9500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 1 1 5B448505
+P 6300 5650
+F 0 "Q?" H 6505 5696 50  0000 L CNN
+F 1 "FDS9926A" H 6505 5605 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6500 5575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 6300 5650 50  0001 L CNN
+	1    6300 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 2 1 5B44850C
+P 6450 4100
+F 0 "Q?" H 6655 4054 50  0000 L CNN
+F 1 "FDS9926A" H 6655 4145 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6650 4025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 6450 4100 50  0001 L CNN
+	2    6450 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 2 1 5B448513
+P 7450 4100
+F 0 "Q?" H 7655 4054 50  0000 L CNN
+F 1 "FDS9926A" H 7655 4145 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7650 4025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 7450 4100 50  0001 L CNN
+	2    7450 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 2 1 5B44851A
+P 8450 4100
+F 0 "Q?" H 8655 4054 50  0000 L CNN
+F 1 "FDS9926A" H 8655 4145 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8650 4025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 8450 4100 50  0001 L CNN
+	2    8450 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 2 1 5B448521
+P 9350 4100
+F 0 "Q?" H 9555 4054 50  0000 L CNN
+F 1 "FDS9926A" H 9555 4145 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9550 4025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 9350 4100 50  0001 L CNN
+	2    9350 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 1 1 5B448528
+P 7450 5650
+F 0 "Q?" H 7655 5696 50  0000 L CNN
+F 1 "FDS9926A" H 7655 5605 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7650 5575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 7450 5650 50  0001 L CNN
+	1    7450 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 1 1 5B44852F
+P 8450 5650
+F 0 "Q?" H 8655 5696 50  0000 L CNN
+F 1 "FDS9926A" H 8655 5605 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8650 5575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 8450 5650 50  0001 L CNN
+	1    8450 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q?
+U 1 1 5B448536
+P 9350 5650
+F 0 "Q?" H 9555 5696 50  0000 L CNN
+F 1 "FDS9926A" H 9555 5605 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9550 5575 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 9350 5650 50  0001 L CNN
+	1    9350 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2100 5950 2100
+Wire Wire Line
+	5200 3200 5750 3200
+Wire Wire Line
+	5750 3200 5750 1100
+Wire Wire Line
+	5750 1100 8250 1100
+Wire Wire Line
+	5200 3300 5700 3300
+Wire Wire Line
+	5700 3300 5700 1050
+Wire Wire Line
+	5700 1050 9200 1050
+Wire Wire Line
+	9200 1050 9200 1500
+Wire Wire Line
+	9200 1500 9300 1500
+Wire Wire Line
+	8400 1500 8250 1500
+Wire Wire Line
+	8250 1500 8250 1100
+Wire Wire Line
+	8400 3050 8400 3450
+Wire Wire Line
+	5650 2600 5200 2600
+Wire Wire Line
+	5200 2700 5600 2700
+Wire Wire Line
+	9200 3500 9200 3050
+Wire Wire Line
+	9200 3050 9300 3050
+Wire Wire Line
+	6250 1500 5600 1500
+Wire Wire Line
+	5600 1500 5600 1400
+Wire Wire Line
+	5600 1400 5200 1400
+Wire Wire Line
+	5200 1500 5500 1500
+Wire Wire Line
+	5500 1500 5500 1150
+Wire Wire Line
+	5500 1150 7250 1150
+Wire Wire Line
+	7250 1150 7250 1500
+Wire Wire Line
+	7250 1500 7400 1500
+Wire Wire Line
+	7400 3050 7250 3050
+Wire Wire Line
+	7250 3050 7250 3400
+Wire Wire Line
+	6000 3050 6250 3050
+Wire Wire Line
+	5200 2000 6000 2000
+Wire Wire Line
+	6550 1700 6550 2100
+Wire Wire Line
+	7700 2850 7700 2200
+Wire Wire Line
+	8700 2850 8700 2300
+Wire Wire Line
+	9600 2850 9600 2400
+Wire Wire Line
+	6550 3250 6550 3650
+Wire Wire Line
+	6550 3650 7700 3650
+Wire Wire Line
+	9600 3650 9600 3250
+Wire Wire Line
+	8700 3250 8700 3650
+Connection ~ 8700 3650
+Wire Wire Line
+	8700 3650 9600 3650
+Wire Wire Line
+	7700 3250 7700 3650
+Connection ~ 7700 3650
+Wire Wire Line
+	7700 3650 8700 3650
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5B44D91C
+P 10150 3650
+F 0 "#PWR?" H 10150 3450 50  0001 C CNN
+F 1 "GNDPWR" H 10154 3496 50  0000 C CNN
+F 2 "" H 10150 3600 50  0001 C CNN
+F 3 "" H 10150 3600 50  0001 C CNN
+	1    10150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B44D967
+P 9900 3650
+F 0 "R?" V 9693 3650 50  0000 C CNN
+F 1 "R" V 9784 3650 50  0000 C CNN
+F 2 "" V 9830 3650 50  0001 C CNN
+F 3 "~" H 9900 3650 50  0001 C CNN
+	1    9900 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10050 3650 10150 3650
+Wire Wire Line
+	9600 3650 9750 3650
+Connection ~ 9600 3650
+Wire Wire Line
+	6550 1300 6550 950 
+Wire Wire Line
+	6550 950  7700 950 
+Wire Wire Line
+	9600 950  9600 1300
+Wire Wire Line
+	8700 1300 8700 950 
+Connection ~ 8700 950 
+Wire Wire Line
+	8700 950  9600 950 
+Wire Wire Line
+	7700 1300 7700 950 
+Connection ~ 7700 950 
+Wire Wire Line
+	7700 950  8100 950 
+$Comp
+L power:+VDC #PWR?
+U 1 1 5B450CDF
+P 8100 950
+F 0 "#PWR?" H 8100 850 50  0001 C CNN
+F 1 "+VDC" H 8100 1225 50  0000 C CNN
+F 2 "" H 8100 950 50  0001 C CNN
+F 3 "" H 8100 950 50  0001 C CNN
+	1    8100 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 8100 950 
+Wire Wire Line
+	8100 950  8700 950 
+$Comp
+L Connector:Screw_Terminal_01x04 J?
+U 1 1 5B450DCF
+P 10700 2200
+F 0 "J?" H 10780 2192 50  0000 L CNN
+F 1 "Screw_Terminal_01x04" H 10780 2101 50  0000 L CNN
+F 2 "" H 10700 2200 50  0001 C CNN
+F 3 "~" H 10700 2200 50  0001 C CNN
+	1    10700 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2100 6550 2100
+Connection ~ 6550 2100
+Wire Wire Line
+	6550 2100 6550 2850
+Wire Wire Line
+	10500 2200 7700 2200
+Connection ~ 7700 2200
+Wire Wire Line
+	7700 2200 7700 1700
+Wire Wire Line
+	10500 2300 8700 2300
+Connection ~ 8700 2300
+Wire Wire Line
+	8700 2300 8700 1700
+Wire Wire Line
+	10500 2400 9600 2400
+Connection ~ 9600 2400
+Wire Wire Line
+	9600 2400 9600 1700
+$Comp
+L 74xx:74LS08 U?
+U 2 1 5B454DBA
+P 6100 3150
+F 0 "U?" H 6100 3475 50  0000 C CNN
+F 1 "74LS08" H 6100 3384 50  0000 C CNN
+F 2 "" H 6100 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 6100 3150 50  0001 C CNN
+	2    6100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 3 1 5B454E48
+P 6100 2800
+F 0 "U?" H 6100 3125 50  0000 C CNN
+F 1 "74LS08" H 6100 3034 50  0000 C CNN
+F 2 "" H 6100 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 6100 2800 50  0001 C CNN
+	3    6100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 4 1 5B454EC3
+P 6100 2450
+F 0 "U?" H 6100 2775 50  0000 C CNN
+F 1 "74LS08" H 6100 2684 50  0000 C CNN
+F 2 "" H 6100 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 6100 2450 50  0001 C CNN
+	4    6100 2450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

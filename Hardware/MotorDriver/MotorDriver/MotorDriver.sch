@@ -1,0 +1,37 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 8350 1050 1450 1400
+U 5B444ADE
+F0 "TMC2130 Driver" 50
+F1 "TMC2130.sch" 50
+F2 "CS" I L 8350 1150 50 
+F3 "SCK" I L 8350 1250 50 
+F4 "SDI" I L 8350 1350 50 
+F5 "SDO" O L 8350 1450 50 
+F6 "STEP" I L 8350 1600 50 
+F7 "DIR" I L 8350 1700 50 
+F8 "DIAG1" O L 8350 1950 50 
+F9 "DIAG0" O L 8350 2050 50 
+F10 "ENABLE" I L 8350 1800 50 
+$EndSheet
+$Sheet
+S 8350 2750 1450 1250
+U 5B4479CB
+F0 "Extruder 1" 50
+F1 "DRV8825.sch" 50
+$EndSheet
+$EndSCHEMATC
