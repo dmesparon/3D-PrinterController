@@ -1,102 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:IRFR3711TRPBF
+EESchema Schematic File Version 4
 LIBS:PrinterController-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -110,6 +14,198 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 9750 2400 1300 400 
+U 5B26C5AE
+F0 "Power Supply" 50
+F1 "Power.sch" 50
+$EndSheet
+$Sheet
+S 8000 500  950  3750
+U 5B26C5B2
+F0 "Motor Connections" 50
+F1 "Motor.sch" 50
+F2 "XENABLE" I L 8000 1250 60 
+F3 "XSTEP" I L 8000 1050 60 
+F4 "XDIR" I L 8000 1150 60 
+F5 "YENABLE" I L 8000 1700 60 
+F6 "YSTEP" I L 8000 1500 60 
+F7 "YDIR" I L 8000 1600 60 
+F8 "ZENABLE" I L 8000 850 60 
+F9 "ZSTEP" I L 8000 650 60 
+F10 "ZDIR" I L 8000 750 60 
+F11 "E0ENABLE" I L 8000 2050 60 
+F12 "E0STEP" I L 8000 1850 60 
+F13 "E0DIR" I L 8000 1950 60 
+F14 "E1ENABLE" I L 8000 2450 60 
+F15 "E1STEP" I L 8000 2250 60 
+F16 "E1DIR" I L 8000 2350 60 
+F17 "ESX1" I L 8000 3500 50 
+F18 "ESY1" I L 8000 3600 50 
+F19 "ESZ1" I L 8000 3700 50 
+F20 "ESX2" I L 8000 3800 50 
+F21 "ESY2" I L 8000 3900 50 
+F22 "ESZ2" I L 8000 4000 50 
+$EndSheet
+$Sheet
+S 6450 2600 1300 700 
+U 5B26C5C4
+F0 "DriverStage" 50
+F1 "PowerOutput.sch" 50
+F2 "HEATER1" I L 6450 2700 60 
+F3 "HEATER2" I L 6450 2800 60 
+F4 "HEATER3" I L 6450 2900 60 
+F5 "HEATER4" I L 6450 3000 60 
+F6 "FAN1" I L 6450 3100 60 
+F7 "FAN2" I L 6450 3200 60 
+$EndSheet
+$Sheet
+S 1250 4400 550  400 
+U 5B26C5D3
+F0 "Sensor Inputs" 50
+F1 "SensorInputs.sch" 50
+F2 "TEMP1" O R 1800 4500 50 
+F3 "TEMP2" O R 1800 4600 50 
+F4 "TEMP3" O R 1800 4700 50 
+$EndSheet
+Wire Wire Line
+	3800 2700 6450 2700
+Wire Wire Line
+	3800 2800 6450 2800
+Wire Wire Line
+	3800 2900 6450 2900
+Wire Wire Line
+	3800 3000 6450 3000
+Wire Wire Line
+	3800 3100 6450 3100
+Wire Wire Line
+	3800 3200 6450 3200
+Wire Wire Line
+	4200 1450 3800 1450
+Wire Wire Line
+	4250 1550 3800 1550
+Wire Wire Line
+	4300 1650 3800 1650
+Wire Wire Line
+	4350 1800 3800 1800
+Wire Wire Line
+	4400 1900 3800 1900
+Wire Wire Line
+	4550 2150 3800 2150
+Wire Wire Line
+	4600 2250 3800 2250
+Wire Wire Line
+	4650 2350 3800 2350
+Wire Wire Line
+	4450 2000 3800 2000
+Wire Wire Line
+	4800 4400 3800 4400
+Wire Wire Line
+	3800 4500 4850 4500
+Wire Wire Line
+	4900 4600 3800 4600
+Wire Wire Line
+	3800 4800 5000 4800
+Wire Wire Line
+	5050 4900 3800 4900
+Wire Wire Line
+	3800 5000 5100 5000
+Wire Wire Line
+	5000 2250 5000 4800
+Wire Wire Line
+	5050 2350 5050 4900
+Wire Wire Line
+	5100 2450 8000 2450
+Wire Wire Line
+	5100 2450 5100 5000
+Wire Wire Line
+	5050 2350 8000 2350
+Wire Wire Line
+	5000 2250 8000 2250
+Wire Wire Line
+	8000 1850 4800 1850
+Wire Wire Line
+	4800 1850 4800 4400
+Wire Wire Line
+	8000 1950 4850 1950
+Wire Wire Line
+	4850 1950 4850 4500
+Wire Wire Line
+	8000 2050 4900 2050
+Wire Wire Line
+	4900 2050 4900 4600
+Wire Wire Line
+	8000 1500 4550 1500
+Wire Wire Line
+	8000 1050 4350 1050
+Wire Wire Line
+	8000 650  4200 650 
+Wire Wire Line
+	4200 650  4200 1450
+Wire Wire Line
+	4350 1050 4350 1800
+Wire Wire Line
+	4550 1500 4550 2150
+Wire Wire Line
+	8000 1600 4600 1600
+Wire Wire Line
+	4600 1600 4600 2250
+Wire Wire Line
+	8000 1700 4650 1700
+Wire Wire Line
+	4650 1700 4650 2350
+Wire Wire Line
+	8000 1150 4400 1150
+Wire Wire Line
+	4400 1150 4400 1900
+Wire Wire Line
+	8000 1250 4450 1250
+Wire Wire Line
+	4450 1250 4450 2000
+Wire Wire Line
+	8000 750  4250 750 
+Wire Wire Line
+	4250 750  4250 1550
+Wire Wire Line
+	8000 850  4300 850 
+Wire Wire Line
+	4300 850  4300 1650
+Wire Wire Line
+	8000 3500 5600 3500
+Wire Wire Line
+	5600 3500 5600 3650
+Wire Wire Line
+	5600 3650 3800 3650
+Wire Wire Line
+	3800 3750 5700 3750
+Wire Wire Line
+	5700 3750 5700 3600
+Wire Wire Line
+	5700 3600 8000 3600
+Wire Wire Line
+	8000 3700 5800 3700
+Wire Wire Line
+	5800 3700 5800 3850
+Wire Wire Line
+	5800 3850 3800 3850
+Wire Wire Line
+	3800 3950 5900 3950
+Wire Wire Line
+	5900 3950 5900 3800
+Wire Wire Line
+	5900 3800 8000 3800
+Wire Wire Line
+	8000 3900 5950 3900
+Wire Wire Line
+	5950 3900 5950 4050
+Wire Wire Line
+	5950 4050 3800 4050
+Wire Wire Line
+	6050 4150 6050 4000
+Wire Wire Line
+	3800 4150 6050 4150
+Wire Wire Line
+	6050 4000 8000 4000
 $Sheet
 S 2300 1400 1500 3700
 U 5B2631DE
@@ -142,152 +238,14 @@ F25 "E0ENABLE" O R 3800 4600 60
 F26 "E1STEP" O R 3800 4800 60 
 F27 "E1DIR" O R 3800 4900 60 
 F28 "E1ENABLE" O R 3800 5000 60 
-$EndSheet
-$Sheet
-S 8550 1950 1300 400 
-U 5B26C5AE
-F0 "Power Supply" 50
-F1 "Power.sch" 50
-$EndSheet
-$Sheet
-S 5550 600  800  2000
-U 5B26C5B2
-F0 "Motor Connections" 50
-F1 "Motor.sch" 50
-F2 "XENABLE" I L 5550 1350 60 
-F3 "XSTEP" I L 5550 1150 60 
-F4 "XDIR" I L 5550 1250 60 
-F5 "YENABLE" I L 5550 1800 60 
-F6 "YSTEP" I L 5550 1600 60 
-F7 "YDIR" I L 5550 1700 60 
-F8 "ZENABLE" I L 5550 950 60 
-F9 "ZSTEP" I L 5550 750 60 
-F10 "ZDIR" I L 5550 850 60 
-F11 "E0ENABLE" I L 5550 2150 60 
-F12 "E0STEP" I L 5550 1950 60 
-F13 "E0DIR" I L 5550 2050 60 
-F14 "E1ENABLE" I L 5550 2550 60 
-F15 "E1STEP" I L 5550 2350 60 
-F16 "E1DIR" I L 5550 2450 60 
-$EndSheet
-$Sheet
-S 6450 2450 1400 1100
-U 5B26C5C4
-F0 "DriverStage" 50
-F1 "PowerOutput.sch" 50
-F2 "HEATER1" I L 6450 2700 60 
-F3 "HEATER2" I L 6450 2800 60 
-F4 "HEATER3" I L 6450 2900 60 
-F5 "HEATER4" I L 6450 3000 60 
-F6 "FAN1" I L 6450 3100 60 
-F7 "FAN2" I L 6450 3200 60 
-$EndSheet
-$Sheet
-S 8500 3700 1300 500 
-U 5B26C5D3
-F0 "Sensor Inputs" 50
-F1 "SensorInputs.sch" 50
+F29 "TEMP1" I L 2300 4500 50 
+F30 "TEMP2" I L 2300 4600 50 
+F31 "TEMP3" I L 2300 4700 50 
 $EndSheet
 Wire Wire Line
-	3800 2700 6450 2700
+	2300 4500 1800 4500
 Wire Wire Line
-	3800 2800 6450 2800
+	1800 4600 2300 4600
 Wire Wire Line
-	3800 2900 6450 2900
-Wire Wire Line
-	3800 3000 6450 3000
-Wire Wire Line
-	3800 3100 6450 3100
-Wire Wire Line
-	3800 3200 6450 3200
-Wire Wire Line
-	4200 750  4200 1450
-Wire Wire Line
-	4200 1450 3800 1450
-Wire Wire Line
-	4250 1550 3800 1550
-Wire Wire Line
-	4250 850  4250 1550
-Wire Wire Line
-	4300 950  4300 1650
-Wire Wire Line
-	4300 1650 3800 1650
-Wire Wire Line
-	4350 1800 3800 1800
-Wire Wire Line
-	4350 1150 4350 1800
-Wire Wire Line
-	4400 1250 4400 1900
-Wire Wire Line
-	4400 1900 3800 1900
-Wire Wire Line
-	4550 2150 3800 2150
-Wire Wire Line
-	4550 1600 4550 2150
-Wire Wire Line
-	4600 1700 4600 2250
-Wire Wire Line
-	4600 2250 3800 2250
-Wire Wire Line
-	4650 2350 3800 2350
-Wire Wire Line
-	4650 1800 4650 2350
-Wire Wire Line
-	4450 1350 4450 2000
-Wire Wire Line
-	4450 2000 3800 2000
-Wire Wire Line
-	5550 750  4200 750 
-Wire Wire Line
-	5550 850  4250 850 
-Wire Wire Line
-	5550 950  4300 950 
-Wire Wire Line
-	4350 1150 5550 1150
-Wire Wire Line
-	5550 1250 4400 1250
-Wire Wire Line
-	5550 1350 4450 1350
-Wire Wire Line
-	5550 1600 4550 1600
-Wire Wire Line
-	5550 1700 4600 1700
-Wire Wire Line
-	5550 1800 4650 1800
-Wire Wire Line
-	5550 1950 4800 1950
-Wire Wire Line
-	4800 1950 4800 4400
-Wire Wire Line
-	4800 4400 3800 4400
-Wire Wire Line
-	3800 4500 4850 4500
-Wire Wire Line
-	4850 4500 4850 2050
-Wire Wire Line
-	4850 2050 5550 2050
-Wire Wire Line
-	5550 2150 4900 2150
-Wire Wire Line
-	4900 2150 4900 4600
-Wire Wire Line
-	4900 4600 3800 4600
-Wire Wire Line
-	3800 4800 5000 4800
-Wire Wire Line
-	5000 4800 5000 2350
-Wire Wire Line
-	5000 2350 5550 2350
-Wire Wire Line
-	5550 2450 5050 2450
-Wire Wire Line
-	5050 2450 5050 4900
-Wire Wire Line
-	5050 4900 3800 4900
-Wire Wire Line
-	3800 5000 5100 5000
-Wire Wire Line
-	5100 5000 5100 2550
-Wire Wire Line
-	5100 2550 5550 2550
+	2300 4700 1800 4700
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:MotorDriver-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -575,4 +576,6 @@ Wire Wire Line
 	6250 2150 6550 2150
 Wire Wire Line
 	5950 2150 6250 2150
+Wire Wire Line
+	6850 3700 6100 3700
 $EndSCHEMATC

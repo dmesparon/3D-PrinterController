@@ -1,106 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:IRFR3711TRPBF
+EESchema Schematic File Version 4
 LIBS:PrinterController-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -110,4 +14,143 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J16
+U 1 1 5B6E1973
+P 1950 1300
+F 0 "J16" H 1870 975 50  0000 C CNN
+F 1 "Conn_01x02" H 1870 1066 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 1950 1300 50  0001 C CNN
+F 3 "~" H 1950 1300 50  0001 C CNN
+	1    1950 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J17
+U 1 1 5B6E1A11
+P 1950 1750
+F 0 "J17" H 1870 1425 50  0000 C CNN
+F 1 "Conn_01x02" H 1870 1516 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 1950 1750 50  0001 C CNN
+F 3 "~" H 1950 1750 50  0001 C CNN
+	1    1950 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J20
+U 1 1 5B6E1A37
+P 1950 2250
+F 0 "J20" H 1870 1925 50  0000 C CNN
+F 1 "Conn_01x02" H 1870 2016 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 1950 2250 50  0001 C CNN
+F 3 "~" H 1950 2250 50  0001 C CNN
+	1    1950 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5B6E1A7A
+P 2650 1450
+F 0 "R25" H 2720 1496 50  0000 L CNN
+F 1 "100K" H 2720 1405 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 2580 1450 50  0001 C CNN
+F 3 "~" H 2650 1450 50  0001 C CNN
+	1    2650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5B6E1AB8
+P 2650 1900
+F 0 "R26" H 2720 1946 50  0000 L CNN
+F 1 "100K" H 2720 1855 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 2580 1900 50  0001 C CNN
+F 3 "~" H 2650 1900 50  0001 C CNN
+	1    2650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5B6E1AEC
+P 2650 2400
+F 0 "R27" H 2720 2446 50  0000 L CNN
+F 1 "100K" H 2720 2355 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 2580 2400 50  0001 C CNN
+F 3 "~" H 2650 2400 50  0001 C CNN
+	1    2650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR076
+U 1 1 5B6E1C31
+P 2450 950
+F 0 "#PWR076" H 2450 800 50  0001 C CNN
+F 1 "+3V3" H 2465 1123 50  0000 C CNN
+F 2 "" H 2450 950 50  0001 C CNN
+F 3 "" H 2450 950 50  0001 C CNN
+	1    2450 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1200 2450 1200
+Wire Wire Line
+	2450 1200 2450 950 
+Wire Wire Line
+	2450 1200 2450 1650
+Wire Wire Line
+	2450 1650 2150 1650
+Connection ~ 2450 1200
+Wire Wire Line
+	2450 1650 2450 2150
+Wire Wire Line
+	2450 2150 2150 2150
+Connection ~ 2450 1650
+Wire Wire Line
+	2150 2250 2650 2250
+Wire Wire Line
+	2650 1750 2150 1750
+Wire Wire Line
+	2650 1300 2150 1300
+$Comp
+L power:GND #PWR077
+U 1 1 5B6E1D39
+P 2650 2650
+F 0 "#PWR077" H 2650 2400 50  0001 C CNN
+F 1 "GND" H 2655 2477 50  0000 C CNN
+F 2 "" H 2650 2650 50  0001 C CNN
+F 3 "" H 2650 2650 50  0001 C CNN
+	1    2650 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2650 2650 2600
+Wire Wire Line
+	2650 2600 2950 2600
+Wire Wire Line
+	2950 2600 2950 2050
+Wire Wire Line
+	2950 1600 2650 1600
+Connection ~ 2650 2600
+Wire Wire Line
+	2650 2600 2650 2550
+Wire Wire Line
+	2650 2050 2950 2050
+Connection ~ 2950 2050
+Wire Wire Line
+	2950 2050 2950 1600
+Text HLabel 3200 1300 2    50   Output ~ 0
+TEMP1
+Text HLabel 3200 1750 2    50   Output ~ 0
+TEMP2
+Text HLabel 3200 2250 2    50   Output ~ 0
+TEMP3
+Wire Wire Line
+	3200 2250 2650 2250
+Connection ~ 2650 2250
+Wire Wire Line
+	3200 1750 2650 1750
+Connection ~ 2650 1750
+Wire Wire Line
+	3200 1300 2650 1300
+Connection ~ 2650 1300
 $EndSCHEMATC

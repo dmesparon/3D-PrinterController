@@ -1,106 +1,10 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:linear
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:IRFR3711TRPBF
+EESchema Schematic File Version 4
 LIBS:PrinterController-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -113,7 +17,7 @@ $EndDescr
 Wire Wire Line
 	1650 1100 1300 1100
 $Comp
-L GNDPWR #PWR049
+L PrinterController-rescue:GNDPWR #PWR049
 U 1 1 5B2F4E32
 P 1650 1450
 F 0 "#PWR049" H 1650 1250 50  0001 C CNN
@@ -136,7 +40,7 @@ Wire Notes Line
 Text Notes 550  1850 0    60   ~ 0
 Digital Voltage (3.3 and 5V)\n
 $Comp
-L Conn_01x03 J23
+L PrinterController-rescue:Conn_01x03 J23
 U 1 1 5B2F4EB7
 P 1100 2200
 F 0 "J23" H 1100 2400 50  0000 C CNN
@@ -147,7 +51,7 @@ F 3 "" H 1100 2200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR050
+L PrinterController-rescue:+5V #PWR050
 U 1 1 5B2F4EF4
 P 1550 2050
 F 0 "#PWR050" H 1550 1900 50  0001 C CNN
@@ -158,9 +62,11 @@ F 3 "" H 1550 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR051
+L PrinterController-rescue:+3V3 #PWR051
 U 1 1 5B2F4F0C
 P 1750 2050
+AR Path="/5B2F4F0C" Ref="#PWR051"  Part="1" 
+AR Path="/5B26C5AE/5B2F4F0C" Ref="#PWR051"  Part="1" 
 F 0 "#PWR051" H 1750 1900 50  0001 C CNN
 F 1 "+3V3" H 1750 2190 50  0000 C CNN
 F 2 "" H 1750 2050 50  0001 C CNN
@@ -169,7 +75,7 @@ F 3 "" H 1750 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR052
+L PrinterController-rescue:GND #PWR052
 U 1 1 5B2F4F24
 P 1550 2350
 F 0 "#PWR052" H 1550 2100 50  0001 C CNN
@@ -192,7 +98,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 2100 1550 2050
 $Comp
-L Screw_Terminal_01x02 J22
+L PrinterController-rescue:Screw_Terminal_01x02 J22
 U 1 1 5B315F3F
 P 1100 1200
 F 0 "J22" H 1100 950 50  0000 C CNN
@@ -203,7 +109,7 @@ F 3 "" H 1100 1200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Screw_Terminal_01x02 J24
+L PrinterController-rescue:Screw_Terminal_01x02 J24
 U 1 1 5B315F58
 P 1100 1400
 F 0 "J24" H 1100 1500 50  0000 C CNN
@@ -214,7 +120,7 @@ F 3 "" H 1100 1400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L VAA #PWR053
+L PrinterController-rescue:VAA #PWR053
 U 1 1 5B316A86
 P 1650 1100
 F 0 "#PWR053" H 1650 950 50  0001 C CNN
@@ -229,7 +135,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 1300 1800 1100
 $Comp
-L +VDC #PWR054
+L PrinterController-rescue:+VDC #PWR054
 U 1 1 5B316AE9
 P 1800 1100
 F 0 "#PWR054" H 1800 1000 50  0001 C CNN
@@ -240,8 +146,292 @@ F 3 "" H 1800 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 1200 1650 1450
+	1650 1200 1650 1400
 Wire Wire Line
 	1300 1200 1650 1200
 Connection ~ 1650 1400
+Wire Wire Line
+	1650 1400 1650 1450
+$Comp
+L Device:C C35
+U 1 1 5B6E9B66
+P 4500 1450
+F 0 "C35" H 4615 1496 50  0000 L CNN
+F 1 "470u" H 4615 1405 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Hand" H 4538 1300 50  0001 C CNN
+F 3 "~" H 4500 1450 50  0001 C CNN
+	1    4500 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1300 4500 1250
+$Comp
+L PrinterController-rescue:GNDPWR #PWR061
+U 1 1 5B6E9F00
+P 4500 1600
+F 0 "#PWR061" H 4500 1400 50  0001 C CNN
+F 1 "GNDPWR" H 4500 1470 50  0000 C CNN
+F 2 "" H 4500 1550 50  0001 C CNN
+F 3 "" H 4500 1550 50  0001 C CNN
+	1    4500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L6
+U 1 1 5B6EA828
+P 4950 1250
+F 0 "L6" V 5140 1250 50  0000 C CNN
+F 1 "1u" V 5049 1250 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" H 4950 1250 50  0001 C CNN
+F 3 "~" H 4950 1250 50  0001 C CNN
+	1    4950 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 1250 4500 1250
+$Comp
+L Device:C C36
+U 1 1 5B6EACDA
+P 5150 1450
+F 0 "C36" H 5265 1496 50  0000 L CNN
+F 1 "100u" H 5265 1405 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Hand" H 5188 1300 50  0001 C CNN
+F 3 "~" H 5150 1450 50  0001 C CNN
+	1    5150 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1300 5150 1250
+Wire Wire Line
+	5150 1250 5100 1250
+$Comp
+L PrinterController-rescue:GNDPWR #PWR062
+U 1 1 5B6EB1B1
+P 5150 1600
+F 0 "#PWR062" H 5150 1400 50  0001 C CNN
+F 1 "GNDPWR" H 5150 1470 50  0000 C CNN
+F 2 "" H 5150 1550 50  0001 C CNN
+F 3 "" H 5150 1550 50  0001 C CNN
+	1    5150 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1250 5600 1250
+Connection ~ 5150 1250
+$Comp
+L PrinterController-rescue:+5V #PWR063
+U 1 1 5B6EB6B0
+P 5600 1250
+F 0 "#PWR063" H 5600 1100 50  0001 C CNN
+F 1 "+5V" H 5600 1390 50  0000 C CNN
+F 2 "" H 5600 1250 50  0001 C CNN
+F 3 "" H 5600 1250 50  0001 C CNN
+	1    5600 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C39
+U 1 1 5B6EB9CF
+P 8600 1450
+F 0 "C39" H 8715 1496 50  0000 L CNN
+F 1 "470u" H 8715 1405 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Hand" H 8638 1300 50  0001 C CNN
+F 3 "~" H 8600 1450 50  0001 C CNN
+	1    8600 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1300 8600 1250
+$Comp
+L PrinterController-rescue:GNDPWR #PWR070
+U 1 1 5B6EB9D8
+P 8600 1600
+F 0 "#PWR070" H 8600 1400 50  0001 C CNN
+F 1 "GNDPWR" H 8600 1470 50  0000 C CNN
+F 2 "" H 8600 1550 50  0001 C CNN
+F 3 "" H 8600 1550 50  0001 C CNN
+	1    8600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L8
+U 1 1 5B6EB9F9
+P 9050 1250
+F 0 "L8" V 9240 1250 50  0000 C CNN
+F 1 "1u" V 9149 1250 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805" H 9050 1250 50  0001 C CNN
+F 3 "~" H 9050 1250 50  0001 C CNN
+	1    9050 1250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 1250 8600 1250
+$Comp
+L Device:C C40
+U 1 1 5B6EBA01
+P 9250 1450
+F 0 "C40" H 9365 1496 50  0000 L CNN
+F 1 "100u" H 9365 1405 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Hand" H 9288 1300 50  0001 C CNN
+F 3 "~" H 9250 1450 50  0001 C CNN
+	1    9250 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1300 9250 1250
+Wire Wire Line
+	9250 1250 9200 1250
+$Comp
+L PrinterController-rescue:GNDPWR #PWR071
+U 1 1 5B6EBA0A
+P 9250 1600
+F 0 "#PWR071" H 9250 1400 50  0001 C CNN
+F 1 "GNDPWR" H 9250 1470 50  0000 C CNN
+F 2 "" H 9250 1550 50  0001 C CNN
+F 3 "" H 9250 1550 50  0001 C CNN
+	1    9250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1250 9700 1250
+Connection ~ 9250 1250
+$Comp
+L PrinterController-rescue:+3V3 #PWR?
+U 1 1 5B6EC73A
+P 9700 1250
+AR Path="/5B6EC73A" Ref="#PWR?"  Part="1" 
+AR Path="/5B26C5AE/5B6EC73A" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 9700 1100 50  0001 C CNN
+F 1 "+3V3" H 9700 1390 50  0000 C CNN
+F 2 "" H 9700 1250 50  0001 C CNN
+F 3 "" H 9700 1250 50  0001 C CNN
+	1    9700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PrinterController-rescue:VAA #PWR0111
+U 1 1 5B6F3AD4
+P 3100 1250
+F 0 "#PWR0111" H 3100 1100 50  0001 C CNN
+F 1 "VAA" H 3100 1400 50  0000 C CNN
+F 2 "" H 3100 1250 50  0001 C CNN
+F 3 "" H 3100 1250 50  0001 C CNN
+	1    3100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PrinterController-rescue:VAA #PWR0112
+U 1 1 5B6F3B11
+P 7350 1250
+F 0 "#PWR0112" H 7350 1100 50  0001 C CNN
+F 1 "VAA" H 7350 1400 50  0000 C CNN
+F 2 "" H 7350 1250 50  0001 C CNN
+F 3 "" H 7350 1250 50  0001 C CNN
+	1    7350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PrinterController-rescue:GNDPWR #PWR057
+U 1 1 5B6EA777
+P 3200 1550
+F 0 "#PWR057" H 3200 1350 50  0001 C CNN
+F 1 "GNDPWR" H 3200 1420 50  0000 C CNN
+F 2 "" H 3200 1500 50  0001 C CNN
+F 3 "" H 3200 1500 50  0001 C CNN
+	1    3200 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1250 3100 1250
+$Comp
+L Device:C C34
+U 1 1 5B6EA6BC
+P 3200 1400
+F 0 "C34" H 3315 1446 50  0000 L CNN
+F 1 "100u" H 3315 1355 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Hand" H 3238 1250 50  0001 C CNN
+F 3 "~" H 3200 1400 50  0001 C CNN
+	1    3200 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 1250
+$Comp
+L PrinterController-rescue:GNDPWR #PWR066
+U 1 1 5B6EB9F3
+P 7450 1550
+F 0 "#PWR066" H 7450 1350 50  0001 C CNN
+F 1 "GNDPWR" H 7450 1420 50  0000 C CNN
+F 2 "" H 7450 1500 50  0001 C CNN
+F 3 "" H 7450 1500 50  0001 C CNN
+	1    7450 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1250 7350 1250
+$Comp
+L Device:C C38
+U 1 1 5B6EB9EA
+P 7450 1400
+F 0 "C38" H 7565 1446 50  0000 L CNN
+F 1 "100u" H 7565 1355 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Hand" H 7488 1250 50  0001 C CNN
+F 3 "~" H 7450 1400 50  0001 C CNN
+	1    7450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:R-78E5.0-1.0 U1
+U 1 1 5B4DC7E5
+P 3800 1250
+F 0 "U1" H 3800 1492 50  0000 C CNN
+F 1 "R-78E5.0-1.0" H 3800 1401 50  0000 C CNN
+F 2 "Converters_DCDC_ACDC:DCDC-Conv_RECOM_R-78E-0.5" H 3850 1000 50  0001 L CIN
+F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf" H 3800 1250 50  0001 C CNN
+	1    3800 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:R-78E3.3-1.0 U6
+U 1 1 5B4DC8E9
+P 8050 1250
+F 0 "U6" H 8050 1492 50  0000 C CNN
+F 1 "R-78E3.3-1.0" H 8050 1401 50  0000 C CNN
+F 2 "Converters_DCDC_ACDC:DCDC-Conv_RECOM_R-78E-0.5" H 8100 1000 50  0001 L CIN
+F 3 "https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf" H 8050 1250 50  0001 C CNN
+	1    8050 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1250 3500 1250
+$Comp
+L PrinterController-rescue:GNDPWR #PWR0115
+U 1 1 5B4DCCF4
+P 3800 1550
+F 0 "#PWR0115" H 3800 1350 50  0001 C CNN
+F 1 "GNDPWR" H 3800 1420 50  0000 C CNN
+F 2 "" H 3800 1500 50  0001 C CNN
+F 3 "" H 3800 1500 50  0001 C CNN
+	1    3800 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1250 4100 1250
+Connection ~ 4500 1250
+Wire Wire Line
+	7750 1250 7450 1250
+Connection ~ 7450 1250
+Wire Wire Line
+	8600 1250 8350 1250
+Connection ~ 8600 1250
+$Comp
+L PrinterController-rescue:GNDPWR #PWR0116
+U 1 1 5B4DDCC8
+P 8050 1550
+F 0 "#PWR0116" H 8050 1350 50  0001 C CNN
+F 1 "GNDPWR" H 8050 1420 50  0000 C CNN
+F 2 "" H 8050 1500 50  0001 C CNN
+F 3 "" H 8050 1500 50  0001 C CNN
+	1    8050 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

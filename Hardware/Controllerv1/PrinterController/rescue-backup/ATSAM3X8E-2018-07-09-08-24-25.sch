@@ -1,10 +1,106 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic_symbols
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:linear
+LIBS:logic_programmable
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:IRFR3711TRPBF
 LIBS:PrinterController-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -313,6 +409,35 @@ F 2 "Inductors_SMD:L_0805" V 5330 850 50  0001 C CNN
 F 3 "~" H 5400 850 50  0001 C CNN
 	1    5400 850 
 	0    1    1    0   
+$EndComp
+$Comp
+L MCU-ATSAM3X8EA-AU-ND_LQFP144_:MCU-ATSAM3X8EA-AU-ND(LQFP144) U?
+U 1 1 5B26AB43
+P 4050 4100
+AR Path="/5B26AB43" Ref="U?"  Part="1" 
+AR Path="/5B2631DE/5B26AB43" Ref="U1"  Part="1" 
+F 0 "U1" H 4050 7028 50  0000 C CNN
+F 1 "MCU-ATSAM3X8EA-AU-ND(LQFP144)" H 4050 6937 50  0000 C CNN
+F 2 "MCU-ATSAM3X8EA-AU-ND_LQFP144_:LQFP144-0.5-20X20M" H 4050 4100 50  0001 L BNN
+F 3 "Microchip" H 4050 4100 50  0001 L BNN
+F 4 "None" H 4050 4100 50  0001 L BNN "Field4"
+F 5 "None" H 4050 4100 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 4050 4100 50  0001 L BNN "Field6"
+F 7 "SMD IC MCU 32BIT 512KB FLASH 84MHz" H 4050 4100 50  0001 L BNN "Field7"
+F 8 "ATSAM3X8EA-AU-ND" H 4050 4100 50  0001 L BNN "Field8"
+	1    4050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Specialized:Conn_ARM_JTAG_SWD_10 J2
+U 1 1 5B26C706
+P 6450 7200
+F 0 "J2" H 6009 7154 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 6009 7245 50  0000 R CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 6500 6650 50  0001 L TNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" V 6100 5950 50  0001 C CNN
+	1    6450 7200
+	-1   0    0    1   
 $EndComp
 Text Label 5650 7500 0    50   ~ 0
 RESET
@@ -929,6 +1054,17 @@ VDDANA
 Text Label 10750 2850 0    50   ~ 0
 VDDREF
 $Comp
+L Connector_Specialized:USB_B_Micro J1
+U 1 1 5B29302C
+P 700 3750
+F 0 "J1" H 755 4217 50  0000 C CNN
+F 1 "USB_B_Micro" H 755 4126 50  0000 C CNN
+F 2 "Connectors:USB_Micro-B_10103594-0001LF" H 850 3700 50  0001 C CNN
+F 3 "~" H 850 3700 50  0001 C CNN
+	1    700  3750
+	1    0    0    -1  
+$EndComp
+$Comp
 L power:VBUS #PWR046
 U 1 1 5B297F54
 P 1000 3550
@@ -951,10 +1087,10 @@ F 3 "" H 700 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 3300 1500 3300
+	1350 3300 1650 3300
 Connection ~ 1500 3300
 Wire Wire Line
-	1350 2950 1650 2950
+	1350 2950 1700 2950
 Wire Wire Line
 	1650 3000 1650 2950
 Wire Wire Line
@@ -988,7 +1124,7 @@ Wire Wire Line
 	800  2200 800  2250
 Connection ~ 500  2500
 Wire Wire Line
-	450  2250 450  2050
+	450  2250 450  1550
 Connection ~ 450  2050
 Connection ~ 500  2250
 Wire Wire Line
@@ -1004,17 +1140,17 @@ Wire Wire Line
 Wire Wire Line
 	1700 1950 1200 1950
 Wire Wire Line
-	800  2500 950  2500
+	800  2500 1200 2500
 Connection ~ 950  2500
 Wire Wire Line
-	800  2200 950  2200
+	800  2200 1200 2200
 Connection ~ 950  2200
 Wire Wire Line
 	2800 1150 2800 1350
 Wire Wire Line
 	2800 800  2800 850 
 Wire Wire Line
-	3400 950  3600 950 
+	3400 950  3650 950 
 Wire Wire Line
 	3400 1350 3400 1250
 Wire Wire Line
@@ -1024,7 +1160,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1100 4300 1350
 Wire Wire Line
-	3600 700  3600 950 
+	3600 700  3600 1350
 Connection ~ 3600 950 
 Connection ~ 3600 700 
 Wire Wire Line
@@ -1049,14 +1185,37 @@ Wire Wire Line
 Wire Wire Line
 	4600 850  4600 1350
 Wire Wire Line
-	4600 850  4900 850 
+	4600 850  5250 850 
 Connection ~ 4900 850 
 Wire Wire Line
 	4900 1350 4900 850 
 Wire Wire Line
-	5750 650  5950 650 
+	5750 650  6600 650 
 Connection ~ 6350 650 
 Connection ~ 5950 650 
+Wire Wire Line
+	3600 1350 4000 1350
+Connection ~ 3900 1350
+Connection ~ 3800 1350
+Connection ~ 3700 1350
+Connection ~ 3600 1350
+Wire Wire Line
+	4900 1350 5300 1350
+Connection ~ 5200 1350
+Connection ~ 5100 1350
+Connection ~ 5000 1350
+Connection ~ 4900 1350
+Wire Wire Line
+	5500 1350 6400 1350
+Connection ~ 5800 1350
+Connection ~ 5600 1350
+Connection ~ 5700 1350
+Connection ~ 6400 2050
+Wire Wire Line
+	6400 1350 6400 2050
+Connection ~ 6400 1950
+Connection ~ 6400 1850
+Connection ~ 6400 1750
 Wire Wire Line
 	5950 7200 5700 7200
 Wire Wire Line
@@ -1076,7 +1235,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 7500 5650 7500
 Wire Wire Line
-	6450 6600 6500 6600
+	6450 6600 6550 6600
 Wire Wire Line
 	6650 6500 6500 6500
 Wire Wire Line
@@ -1104,6 +1263,9 @@ Wire Wire Line
 	1100 3850 1100 2650
 Wire Wire Line
 	1100 2650 1250 2650
+Wire Wire Line
+	700  4150 600  4150
+Connection ~ 700  4150
 Text HLabel 4700 7300 3    60   Output ~ 0
 ZSTEP
 Text HLabel 4800 7300 3    60   Output ~ 0
@@ -1215,12 +1377,12 @@ E1ENABLE
 Wire Wire Line
 	5300 6850 5300 7350
 $Comp
-L PrinterController-rescue:LED D1
+L LED D1
 U 1 1 5B238618
 P 5400 7500
 F 0 "D1" H 5400 7600 50  0000 C CNN
 F 1 "LED" H 5400 7400 50  0000 C CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Hand" H 5400 7500 50  0001 C CNN
+F 2 "LEDs:LED_0805" H 5400 7500 50  0001 C CNN
 F 3 "" H 5400 7500 50  0001 C CNN
 	1    5400 7500
 	0    -1   -1   0   
@@ -1228,7 +1390,7 @@ $EndComp
 Wire Wire Line
 	5300 7350 5400 7350
 $Comp
-L PrinterController-rescue:R R6
+L R R6
 U 1 1 5B23892D
 P 5250 7700
 F 0 "R6" V 5330 7700 50  0000 C CNN
@@ -1252,7 +1414,7 @@ F 3 "" H 5100 7700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PrinterController-rescue:Crystal_GND24 Y1
+L Crystal_GND24 Y1
 U 1 1 5B358941
 P 950 2000
 F 0 "Y1" H 1075 2200 50  0000 L CNN
@@ -1265,7 +1427,7 @@ $EndComp
 Wire Wire Line
 	1150 2150 1150 2050
 Wire Wire Line
-	750  2150 950  2150
+	750  2150 1150 2150
 Connection ~ 950  2150
 Wire Wire Line
 	1200 1950 1200 1850
@@ -1285,91 +1447,4 @@ Wire Wire Line
 Wire Wire Line
 	750  1850 450  1850
 Connection ~ 450  1850
-Wire Wire Line
-	1500 3300 1650 3300
-Wire Wire Line
-	1650 2950 1700 2950
-Wire Wire Line
-	450  2050 450  1850
-Wire Wire Line
-	950  2500 1200 2500
-Wire Wire Line
-	950  2200 1200 2200
-Wire Wire Line
-	3600 950  3650 950 
-Wire Wire Line
-	3600 950  3600 1100
-Wire Wire Line
-	3600 1100 3600 1350
-Wire Wire Line
-	4900 850  5250 850 
-Wire Wire Line
-	6350 650  6600 650 
-Wire Wire Line
-	5950 650  6350 650 
-Wire Wire Line
-	6500 6600 6550 6600
-Wire Wire Line
-	950  2150 1150 2150
-Wire Wire Line
-	450  1650 450  1550
-Wire Wire Line
-	450  1850 450  1650
-Wire Wire Line
-	6400 1350 6400 1750
-$Comp
-L MCU-ATSAM3X8EA-AU-ND_LQFP144_:MCU-ATSAM3X8EA-AU-ND(LQFP144) U13
-U 1 1 5B6CC3DF
-P 4050 4100
-F 0 "U13" H 4050 7028 50  0000 C CNN
-F 1 "MCU-ATSAM3X8EA-AU-ND(LQFP144)" H 4050 6937 50  0000 C CNN
-F 2 "MCU-ATSAM3X8EA-AU-ND_LQFP144_:LQFP144-0.5-20X20M" H 4050 4100 50  0001 L BNN
-F 3 "Microchip" H 4050 4100 50  0001 L BNN
-F 4 "None" H 4050 4100 50  0001 L BNN "Field4"
-F 5 "Unavailable" H 4050 4100 50  0001 L BNN "Field5"
-F 6 "SMD IC MCU 32BIT 512KB FLASH 84MHz" H 4050 4100 50  0001 L BNN "Field6"
-F 7 "ATSAM3X8EA-AU-ND" H 4050 4100 50  0001 L BNN "Field7"
-F 8 "None" H 4050 4100 50  0001 L BNN "Field8"
-	1    4050 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 1350 6400 1350
-$Comp
-L Connector:USB_OTG J21
-U 1 1 5B6CC522
-P 700 3750
-F 0 "J21" H 755 4217 50  0000 C CNN
-F 1 "USB_OTG" H 755 4126 50  0000 C CNN
-F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 850 3700 50  0001 C CNN
-F 3 " ~" H 850 3700 50  0001 C CNN
-	1    700  3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	600  4150 700  4150
-Connection ~ 700  4150
-Wire Wire Line
-	1700 5950 1000 5950
-Wire Wire Line
-	1700 5850 1000 5850
-Wire Wire Line
-	1700 5750 1000 5750
-Text HLabel 1000 5750 0    50   Input ~ 0
-TEMP1
-Text HLabel 1000 5850 0    50   Input ~ 0
-TEMP2
-Text HLabel 1000 5950 0    50   Input ~ 0
-TEMP3
-$Comp
-L Connector:Conn_ARM_JTAG_SWD_10 J25
-U 1 1 5B6F5E59
-P 6450 7200
-F 0 "J25" H 6009 7154 50  0000 R CNN
-F 1 "Conn_ARM_JTAG_SWD_10" H 6009 7245 50  0000 R CNN
-F 2 "Connectors_Harwin:Harwin_Gecko-G125-FVX1005L0X_2x05x1.25mm_Straight" H 6500 6650 50  0001 L TNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf" V 6100 5950 50  0001 C CNN
-	1    6450 7200
-	-1   0    0    1   
-$EndComp
 $EndSCHEMATC
