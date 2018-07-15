@@ -1722,7 +1722,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE6) (tstamp 5B49A7B9)
-    (at 231.144 75.98)
+    (at 231.652 63.788)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
     (path /5B26C5B2/5B6A19B3)
@@ -1778,7 +1778,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE6) (tstamp 5B49A74D)
-    (at 231.144 90.204)
+    (at 231.652 78.012)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
     (path /5B26C5B2/5B6A19FB)
@@ -2054,7 +2054,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE6) (tstamp 5B49A825)
-    (at 231.144 104.428)
+    (at 231.652 92.236)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
     (path /5B26C5B2/5B6A1A27)
@@ -2110,7 +2110,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE6) (tstamp 5B49A8FD)
-    (at 231.144 83.092)
+    (at 231.652 70.9)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
     (path /5B26C5B2/5B6A1A55)
@@ -2166,7 +2166,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE6) (tstamp 5B49A969)
-    (at 231.144 97.316)
+    (at 231.652 85.124)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
     (path /5B26C5B2/5B6A1AB9)
@@ -2222,7 +2222,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE6) (tstamp 5B49A891)
-    (at 231.144 111.54)
+    (at 231.6988 99.822)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
     (path /5B26C5B2/5B6A1AF1)
@@ -2278,7 +2278,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE4) (tstamp 5B440095)
-    (at 146.558 102.362 270)
+    (at 144.5768 89.8144 270)
     (descr "Connector Headers with Friction Lock, 22-27-2021, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2021")
     (path /5B26C5D3/5B6E1973)
@@ -2329,7 +2329,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE4) (tstamp 5B4400B6)
-    (at 146.558 92.202 90)
+    (at 144.5768 79.6544 90)
     (descr "Connector Headers with Friction Lock, 22-27-2021, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2021")
     (path /5B26C5D3/5B6E1A11)
@@ -2380,7 +2380,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE4) (tstamp 5B440105)
-    (at 146.558 98.552 90)
+    (at 144.5768 86.0044 90)
     (descr "Connector Headers with Friction Lock, 22-27-2021, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2021")
     (path /5B26C5D3/5B6E1A37)
@@ -2431,7 +2431,7 @@
   )
 
   (module Connectors_USB:USB_Micro-B_Molex-105017-0001 (layer F.Cu) (tedit 598B308E) (tstamp 5B44012E)
-    (at 159.75 101 270)
+    (at 140.97 100.4316 270)
     (descr http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf)
     (tags "Micro-USB SMD Typ-B")
     (path /5B2631DE/5B6CC522)
@@ -2571,7 +2571,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-03_03x2.54mm_Straight (layer F.Cu) (tedit 58EE6EE6) (tstamp 5B44018C)
-    (at 140.3985 70.866)
+    (at 141.1732 63.6016)
     (descr "Connector Headers with Friction Lock, 22-27-2031, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2031")
     (path /5B26C5AE/5B2F4EB7)
