@@ -1,0 +1,168 @@
+EESchema Schematic File Version 4
+LIBS:MotorDriver-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ICE40HX1K:ICE40HX1K U?
+U 1 1 5B4DF811
+P 5350 2900
+F 0 "U?" H 5350 2900 50  0001 L BNN
+F 1 "ICE40HX1K" H 5350 2900 50  0001 L BNN
+F 2 "TQFP144" H 5350 2900 50  0001 L BNN
+F 3 "Unavailable" H 5350 2900 50  0001 L BNN
+F 4 "" H 5350 2900 50  0001 L BNN "Field4"
+F 5 "ICE40HX1K" H 5350 2900 50  0001 L BNN "Field5"
+F 6 "None" H 5350 2900 50  0001 L BNN "Field6"
+F 7 "Lattice Semiconductor" H 5350 2900 50  0001 L BNN "Field7"
+F 8 "None" H 5350 2900 50  0001 L BNN "Field8"
+	1    5350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5B4DF967
+P 2000 5650
+F 0 "#PWR?" H 2000 5500 50  0001 C CNN
+F 1 "+3V3" H 2015 5823 50  0000 C CNN
+F 2 "" H 2000 5650 50  0001 C CNN
+F 3 "" H 2000 5650 50  0001 C CNN
+	1    2000 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5B4DF9AE
+P 3000 5650
+F 0 "#PWR?" H 3000 5500 50  0001 C CNN
+F 1 "+1V8" H 3015 5823 50  0000 C CNN
+F 2 "" H 3000 5650 50  0001 C CNN
+F 3 "" H 3000 5650 50  0001 C CNN
+	1    3000 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5650 2850 5650
+Wire Wire Line
+	2250 5650 2100 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5B4DF9E5
+P 2550 5950
+F 0 "#PWR?" H 2550 5700 50  0001 C CNN
+F 1 "GND" H 2555 5777 50  0000 C CNN
+F 2 "" H 2550 5950 50  0001 C CNN
+F 3 "" H 2550 5950 50  0001 C CNN
+	1    2550 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B4DFA10
+P 3000 5800
+F 0 "C?" H 3115 5846 50  0000 L CNN
+F 1 "100u" H 3115 5755 50  0000 L CNN
+F 2 "" H 3038 5650 50  0001 C CNN
+F 3 "~" H 3000 5800 50  0001 C CNN
+	1    3000 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 5650
+$Comp
+L Device:C C?
+U 1 1 5B4DFA38
+P 2100 5800
+F 0 "C?" H 2215 5846 50  0000 L CNN
+F 1 "10u" H 2215 5755 50  0000 L CNN
+F 2 "" H 2138 5650 50  0001 C CNN
+F 3 "~" H 2100 5800 50  0001 C CNN
+	1    2100 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 5650
+Wire Wire Line
+	2100 5650 2000 5650
+$Comp
+L power:GND #PWR?
+U 1 1 5B4DFA80
+P 2100 5950
+F 0 "#PWR?" H 2100 5700 50  0001 C CNN
+F 1 "GND" H 2105 5777 50  0000 C CNN
+F 2 "" H 2100 5950 50  0001 C CNN
+F 3 "" H 2100 5950 50  0001 C CNN
+	1    2100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B4DFA91
+P 3000 5950
+F 0 "#PWR?" H 3000 5700 50  0001 C CNN
+F 1 "GND" H 3005 5777 50  0000 C CNN
+F 2 "" H 3000 5950 50  0001 C CNN
+F 3 "" H 3000 5950 50  0001 C CNN
+	1    3000 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5B4DFB44
+P 7400 1400
+F 0 "#PWR?" H 7400 1250 50  0001 C CNN
+F 1 "+3V3" H 7415 1573 50  0000 C CNN
+F 2 "" H 7400 1400 50  0001 C CNN
+F 3 "" H 7400 1400 50  0001 C CNN
+	1    7400 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2600 7400 2600
+Wire Wire Line
+	7400 2600 7400 2500
+Wire Wire Line
+	7650 2500 7400 2500
+Connection ~ 7400 2500
+Wire Wire Line
+	7400 2500 7400 2400
+Wire Wire Line
+	7650 2400 7400 2400
+Connection ~ 7400 2400
+Wire Wire Line
+	7400 2400 7400 2300
+Wire Wire Line
+	7650 2300 7400 2300
+Connection ~ 7400 2300
+Wire Wire Line
+	7400 2300 7400 2200
+Wire Wire Line
+	7650 2200 7400 2200
+Connection ~ 7400 2200
+Wire Wire Line
+	7400 2200 7400 2100
+Wire Wire Line
+	7650 2100 7400 2100
+Connection ~ 7400 2100
+Wire Wire Line
+	7650 2000 7400 2000
+Wire Wire Line
+	7400 1400 7400 1900
+Connection ~ 7400 2000
+Wire Wire Line
+	7400 2000 7400 2100
+Wire Wire Line
+	7650 1900 7400 1900
+Connection ~ 7400 1900
+Wire Wire Line
+	7400 1900 7400 2000
+$EndSCHEMATC
