@@ -306,12 +306,12 @@ $EndComp
 $Comp
 L Device:Ferrite_Bead L4
 U 1 1 5B26AB18
-P 5400 850
-F 0 "L4" V 5126 850 50  0000 C CNN
-F 1 "Ferrite_Bead" V 5217 850 50  0000 C CNN
-F 2 "Inductors_SMD:L_0805" V 5330 850 50  0001 C CNN
-F 3 "~" H 5400 850 50  0001 C CNN
-	1    5400 850 
+P 5550 850
+F 0 "L4" V 5276 850 50  0000 C CNN
+F 1 "Ferrite_Bead" V 5367 850 50  0000 C CNN
+F 2 "Inductors_SMD:L_0805" V 5480 850 50  0001 C CNN
+F 3 "~" H 5550 850 50  0001 C CNN
+	1    5550 850 
 	0    1    1    0   
 $EndComp
 Text Label 5650 7500 0    50   ~ 0
@@ -1020,7 +1020,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 1350 3100 1150
 Wire Wire Line
-	3600 1100 4300 1100
+	3600 1100 3700 1100
 Wire Wire Line
 	4300 1100 4300 1350
 Wire Wire Line
@@ -1039,11 +1039,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 850  5750 650 
 Wire Wire Line
-	5550 850  5750 850 
-Wire Wire Line
 	6600 650  6600 1150
-Wire Wire Line
-	6600 1150 4700 1150
 Wire Wire Line
 	4700 1150 4700 1350
 Wire Wire Line
@@ -1302,8 +1298,6 @@ Wire Wire Line
 Wire Wire Line
 	3600 1100 3600 1350
 Wire Wire Line
-	4900 850  5250 850 
-Wire Wire Line
 	6350 650  6600 650 
 Wire Wire Line
 	5950 650  6350 650 
@@ -1372,4 +1366,69 @@ F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex
 	1    6450 7200
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3700 1350 3700 1100
+Connection ~ 3700 1100
+Wire Wire Line
+	3700 1100 3800 1100
+Wire Wire Line
+	3800 1350 3800 1100
+Connection ~ 3800 1100
+Wire Wire Line
+	3800 1100 3900 1100
+Wire Wire Line
+	3900 1350 3900 1100
+Connection ~ 3900 1100
+Wire Wire Line
+	3900 1100 4000 1100
+Wire Wire Line
+	4000 1350 4000 1100
+Connection ~ 4000 1100
+Wire Wire Line
+	4000 1100 4300 1100
+Wire Wire Line
+	5500 1350 5600 1350
+Wire Wire Line
+	5700 1350 5600 1350
+Connection ~ 5600 1350
+Wire Wire Line
+	5700 1350 5800 1350
+Connection ~ 5700 1350
+Connection ~ 5800 1350
+Wire Wire Line
+	6400 1750 6400 1850
+Connection ~ 6400 1750
+Wire Wire Line
+	6400 1850 6400 1950
+Connection ~ 6400 1850
+Wire Wire Line
+	6400 1950 6400 2050
+Connection ~ 6400 1950
+Connection ~ 6400 2050
+Wire Wire Line
+	4700 1150 6600 1150
+Wire Wire Line
+	5700 850  5750 850 
+Wire Wire Line
+	4900 850  5000 850 
+Wire Wire Line
+	5300 1350 5300 850 
+Connection ~ 5300 850 
+Wire Wire Line
+	5300 850  5400 850 
+Wire Wire Line
+	5200 1350 5200 850 
+Connection ~ 5200 850 
+Wire Wire Line
+	5200 850  5300 850 
+Wire Wire Line
+	5100 1350 5100 850 
+Connection ~ 5100 850 
+Wire Wire Line
+	5100 850  5200 850 
+Wire Wire Line
+	5000 1350 5000 850 
+Connection ~ 5000 850 
+Wire Wire Line
+	5000 850  5100 850 
 $EndSCHEMATC
