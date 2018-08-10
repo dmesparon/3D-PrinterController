@@ -1327,8 +1327,6 @@ F 8 "None" H 4050 4100 50  0001 L BNN "Field8"
 	1    4050 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 1350 6400 1350
 $Comp
 L Connector:USB_OTG J21
 U 1 1 5B6CC522
@@ -1387,25 +1385,6 @@ Connection ~ 4000 1100
 Wire Wire Line
 	4000 1100 4300 1100
 Wire Wire Line
-	5500 1350 5600 1350
-Wire Wire Line
-	5700 1350 5600 1350
-Connection ~ 5600 1350
-Wire Wire Line
-	5700 1350 5800 1350
-Connection ~ 5700 1350
-Connection ~ 5800 1350
-Wire Wire Line
-	6400 1750 6400 1850
-Connection ~ 6400 1750
-Wire Wire Line
-	6400 1850 6400 1950
-Connection ~ 6400 1850
-Wire Wire Line
-	6400 1950 6400 2050
-Connection ~ 6400 1950
-Connection ~ 6400 2050
-Wire Wire Line
 	4700 1150 6600 1150
 Wire Wire Line
 	5700 850  5750 850 
@@ -1431,4 +1410,159 @@ Wire Wire Line
 Connection ~ 5000 850 
 Wire Wire Line
 	5000 850  5100 850 
+$Comp
+L PrinterController-rescue:LED D2
+U 1 1 5B73BA54
+P 850 4550
+F 0 "D2" H 850 4650 50  0000 C CNN
+F 1 "LED" H 850 4450 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 850 4550 50  0001 C CNN
+F 3 "" H 850 4550 50  0001 C CNN
+	1    850  4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PrinterController-rescue:R R20
+U 1 1 5B73BA5C
+P 3750 7700
+F 0 "R20" V 3830 7700 50  0000 C CNN
+F 1 "330R" V 3750 7700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3680 7700 50  0001 C CNN
+F 3 "" H 3750 7700 50  0001 C CNN
+	1    3750 7700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 7700 3900 7650
+$Comp
+L PrinterController-rescue:R R16
+U 1 1 5B756055
+P 700 4750
+F 0 "R16" V 780 4750 50  0000 C CNN
+F 1 "330R" V 700 4750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 630 4750 50  0001 C CNN
+F 3 "" H 700 4750 50  0001 C CNN
+	1    700  4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PrinterController-rescue:R R18
+U 1 1 5B7562B6
+P 700 4850
+F 0 "R18" V 750 4550 50  0000 C CNN
+F 1 "330R" V 700 4850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 630 4850 50  0001 C CNN
+F 3 "" H 700 4850 50  0001 C CNN
+	1    700  4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PrinterController-rescue:R R19
+U 1 1 5B756326
+P 700 4950
+F 0 "R19" V 600 5050 50  0000 C CNN
+F 1 "330R" V 700 4950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 630 4950 50  0001 C CNN
+F 3 "" H 700 4950 50  0001 C CNN
+	1    700  4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PrinterController-rescue:LED D3
+U 1 1 5B7565E9
+P 1100 4550
+F 0 "D3" H 1100 4650 50  0000 C CNN
+F 1 "LED" H 1100 4450 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 1100 4550 50  0001 C CNN
+F 3 "" H 1100 4550 50  0001 C CNN
+	1    1100 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L PrinterController-rescue:LED D6
+U 1 1 5B756665
+P 1350 4550
+F 0 "D6" H 1350 4650 50  0000 C CNN
+F 1 "LED" H 1350 4450 50  0000 C CNN
+F 2 "Diodes_SMD:D_0805" H 1350 4550 50  0001 C CNN
+F 3 "" H 1350 4550 50  0001 C CNN
+	1    1350 4550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6400 2050
+Connection ~ 6400 1950
+Connection ~ 6400 1850
+Connection ~ 6400 1750
+Connection ~ 5800 1350
+Connection ~ 5700 1350
+Connection ~ 5600 1350
+Wire Wire Line
+	5700 1350 5800 1350
+Wire Wire Line
+	5800 1350 6400 1350
+Wire Wire Line
+	6400 1950 6400 2050
+Wire Wire Line
+	6400 1850 6400 1950
+Wire Wire Line
+	6400 1750 6400 1850
+Wire Wire Line
+	5700 1350 5600 1350
+Wire Wire Line
+	5500 1350 5600 1350
+Wire Wire Line
+	1700 3550 1300 3550
+Wire Wire Line
+	1300 3550 1300 4150
+Wire Wire Line
+	1300 4150 850  4150
+Wire Wire Line
+	850  4150 850  4400
+Wire Wire Line
+	1100 4400 1100 4200
+Wire Wire Line
+	1100 4200 1350 4200
+Wire Wire Line
+	1350 4200 1350 3650
+Wire Wire Line
+	1350 3650 1700 3650
+Wire Wire Line
+	1700 3750 1400 3750
+Wire Wire Line
+	1400 3750 1400 4250
+Wire Wire Line
+	1400 4250 1350 4250
+Wire Wire Line
+	1350 4250 1350 4400
+Wire Wire Line
+	850  4700 850  4750
+Wire Wire Line
+	850  4850 1100 4850
+Wire Wire Line
+	1100 4850 1100 4700
+Wire Wire Line
+	1350 4700 1350 4950
+Wire Wire Line
+	1350 4950 850  4950
+$Comp
+L power:GND #PWR0123
+U 1 1 5B78F350
+P 550 5150
+F 0 "#PWR0123" H 550 4900 50  0001 C CNN
+F 1 "GND" H 555 4977 50  0000 C CNN
+F 2 "" H 550 5150 50  0001 C CNN
+F 3 "" H 550 5150 50  0001 C CNN
+	1    550  5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	550  5150 550  4950
+Wire Wire Line
+	550  4950 550  4850
+Connection ~ 550  4950
+Wire Wire Line
+	550  4850 550  4750
+Connection ~ 550  4850
+Wire Wire Line
+	1000 5350 1700 5350
 $EndSCHEMATC

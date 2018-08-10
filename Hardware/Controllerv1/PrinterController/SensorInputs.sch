@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -20,7 +20,7 @@ U 1 1 5B6E1973
 P 1950 1300
 F 0 "J16" H 1870 975 50  0000 C CNN
 F 1 "Conn_01x02" H 1870 1066 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 1950 1300 50  0001 C CNN
+F 2 "Connectors_JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 1950 1300 50  0001 C CNN
 F 3 "~" H 1950 1300 50  0001 C CNN
 	1    1950 1300
 	-1   0    0    1   
@@ -31,7 +31,7 @@ U 1 1 5B6E1A11
 P 1950 1750
 F 0 "J17" H 1870 1425 50  0000 C CNN
 F 1 "Conn_01x02" H 1870 1516 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 1950 1750 50  0001 C CNN
+F 2 "Connectors_JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 1950 1750 50  0001 C CNN
 F 3 "~" H 1950 1750 50  0001 C CNN
 	1    1950 1750
 	-1   0    0    1   
@@ -42,7 +42,7 @@ U 1 1 5B6E1A37
 P 1950 2250
 F 0 "J20" H 1870 1925 50  0000 C CNN
 F 1 "Conn_01x02" H 1870 2016 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 1950 2250 50  0001 C CNN
+F 2 "Connectors_JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 1950 2250 50  0001 C CNN
 F 3 "~" H 1950 2250 50  0001 C CNN
 	1    1950 2250
 	-1   0    0    1   
