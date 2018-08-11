@@ -1563,4 +1563,6 @@ Connection ~ 550  4950
 Wire Wire Line
 	550  4850 550  4750
 Connection ~ 550  4850
+Wire Wire Line
+	1000 5350 1700 5350
 $EndSCHEMATC
